@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomil\\source\\repos\\Actividad1_5\\Actividad1_5\\Actividad1_5.csproj",
+      "projectUniqueName": "C:\\Users\\tomil\\OneDrive\\Escritorio\\Practicas\\Actividad1_5\\Actividad1_5\\Actividad1_5.csproj",
       "projectName": "Actividad1_5",
-      "projectPath": "C:\\Users\\tomil\\source\\repos\\Actividad1_5\\Actividad1_5\\Actividad1_5.csproj",
+      "projectPath": "C:\\Users\\tomil\\OneDrive\\Escritorio\\Practicas\\Actividad1_5\\Actividad1_5\\Actividad1_5.csproj",
       "packagesPath": "C:\\Users\\tomil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomil\\source\\repos\\Actividad1_5\\Actividad1_5\\obj\\",
+      "outputPath": "C:\\Users\\tomil\\OneDrive\\Escritorio\\Practicas\\Actividad1_5\\Actividad1_5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tomil\\AppData\\Roaming\\NuGet\\NuGet.Config",

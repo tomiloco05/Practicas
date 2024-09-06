@@ -86,6 +86,7 @@ namespace Actividad1_5.Data.Utils
                                 
                 var cmd = new SqlCommand(SP, connection);
                 cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Transaction = transaction;
                 if (parametros != null)
                 {
                     foreach (var parametro in parametros)
@@ -98,6 +99,7 @@ namespace Actividad1_5.Data.Utils
                         {
                             SqlParameter param = new SqlParameter(parametro.Nombre, parametro.Tipo);
                             param.Direction = ParameterDirection.Output;
+                            OutputParam.Add(param);
                             cmd.Parameters.Add(param);
                             
                         }
@@ -116,7 +118,7 @@ namespace Actividad1_5.Data.Utils
                 }
                
             }
-            catch (SqlException)
+            catch (SqlException error)
             {
                 if (transaction != null)
                 {
@@ -124,6 +126,7 @@ namespace Actividad1_5.Data.Utils
                     connection.Close();
                 }
                 rows = 0;
+               
             }
             return rows;
         }
@@ -137,6 +140,7 @@ namespace Actividad1_5.Data.Utils
 
                 var cmd = new SqlCommand(SP, connection);
                 cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Transaction = transaction;
                 if (parametros != null)
                 {
                     foreach (var parametro in parametros)

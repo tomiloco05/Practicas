@@ -88,9 +88,10 @@ namespace Actividad1_5.Data
             List<ParametroSQL>  Output = new List<ParametroSQL>();
             if(DataHelper.GetInstance().ExecuteSPDMLTransact("SP_GuardarFactura", connection, Transaccion, parametros, out Output)==0)
             {
+                Console.WriteLine("Error al cargar maestro");
                 return false;
             };
-
+            
             int IDMaestro = (int)Output[0].Valor;
             int nroDetalle = 1;
             foreach (var detalle in oFactura.GetDetalles())
@@ -105,6 +106,7 @@ namespace Actividad1_5.Data
                 };
                 if (DataHelper.GetInstance().ExecuteSPDMLTransact("SP_GuardarDetalle", connection, Transaccion, parametrosdetalle)==0)
                 {
+                    Console.WriteLine("Error al cargar detalle");
                     return false;
                 } ;
                 nroDetalle++;
@@ -113,5 +115,7 @@ namespace Actividad1_5.Data
             connection.Close();
             return true;
         }
+
+
     }
 }

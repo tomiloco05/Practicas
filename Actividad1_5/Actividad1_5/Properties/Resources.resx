@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Conexion" xml:space="preserve">
-    <value>Data Source=PC-TOMILOCO05\SQLEXPRESS;Initial Catalog=db_almacen;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;</value>
+    <value>Data Source=PC-TOMILOCO05\SQLEXPRESS;Initial Catalog=Actividad1_5;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;</value>
   </data>
 </root>

@@ -61,7 +61,7 @@ namespace Actividad1_5.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=PC-TOMILOCO05\SQLEXPRESS;Initial Catalog=db_almacen;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;.
+        ///   Busca una cadena traducida similar a Data Source=PC-TOMILOCO05\SQLEXPRESS;Initial Catalog=Actividad1_5;Integrated Security=True;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;.
         /// </summary>
         internal static string Conexion {
             get {

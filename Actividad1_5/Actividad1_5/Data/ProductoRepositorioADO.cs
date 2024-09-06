@@ -29,7 +29,7 @@ namespace Actividad1_5.Data
                 {
                     Codigo = Convert.ToInt32(row["ID_Producto"]),
                     Nombre = row["Nombre"].ToString(),
-                    Precio = (float)row["Precio"],
+                    Precio = (float)Convert.ToSingle(row["Precio"]),
                     Activo = Convert.ToBoolean(row["Activo"]),
                     Stock = Convert.ToInt32(row["Stock"])
                 };
@@ -50,7 +50,7 @@ namespace Actividad1_5.Data
                 {
                     Codigo = Convert.ToInt32(row["ID_Producto"]),
                     Nombre = row["Nombre"].ToString(),
-                    Precio = (float)row["Precio"],
+                    Precio = (float)Convert.ToSingle(row["Precio"]),
                     Activo = Convert.ToBoolean(row["Activo"]),
                     Stock = Convert.ToInt32(row["Stock"])
                 };

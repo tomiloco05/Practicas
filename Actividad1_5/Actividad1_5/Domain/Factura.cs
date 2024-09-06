@@ -13,10 +13,17 @@ namespace Actividad1_5.Domain
         public string Cliente { get; set; }
         public DateTime Fecha { get; set; }
 
-        private List<DetallaFactura> Detalles;
+        public List<DetallaFactura> Detalles;
         public List<DetallaFactura> GetDetalles()
         {
             return Detalles;
+        }
+        public Factura(int metodopago, string cliente, DateTime fecha)
+        {
+            Detalles = new List<DetallaFactura>();
+            MetodoPago = metodopago;
+            Cliente = cliente;
+            Fecha = fecha;
         }
         public Factura()
         {
