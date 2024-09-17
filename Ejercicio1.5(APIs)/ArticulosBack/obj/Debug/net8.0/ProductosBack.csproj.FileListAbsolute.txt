@@ -1,0 +1,7 @@
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.csproj.AssemblyReference.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.Properties.Resources.resources
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.csproj.GenerateResource.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.AssemblyInfoInputs.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.AssemblyInfo.cs
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ProductosBack.csproj.CoreCompileInputs.cache

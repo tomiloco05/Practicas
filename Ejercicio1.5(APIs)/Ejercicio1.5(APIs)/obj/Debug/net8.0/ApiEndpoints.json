@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Ejercicio1._5_APIs_.Controllers.ProductosController",
+    "Method": "BorrarProducto",
+    "RelativePath": "api/Productos/BorrarProducto",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ejercicio1._5_APIs_.Controllers.ProductosController",
+    "Method": "BuscarProducto",
+    "RelativePath": "api/Productos/BuscarPorID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ejercicio1._5_APIs_.Controllers.ProductosController",
+    "Method": "RecuperarProductos",
+    "RelativePath": "api/Productos/BuscarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ejercicio1._5_APIs_.Controllers.ProductosController",
+    "Method": "GuardarProducto",
+    "RelativePath": "api/Productos/GuardarProducto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oProducto",
+        "Type": "ArticulosBack.Entities.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

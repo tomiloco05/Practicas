@@ -1,0 +1,14 @@
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\bin\Debug\net8.0\ArticulosBack.deps.json
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\bin\Debug\net8.0\ArticulosBack.dll
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\bin\Debug\net8.0\ArticulosBack.pdb
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.csproj.AssemblyReference.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.Properties.Resources.resources
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.csproj.GenerateResource.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.AssemblyInfoInputs.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.AssemblyInfo.cs
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.csproj.CoreCompileInputs.cache
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.dll
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\refint\ArticulosBack.dll
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ArticulosBack.pdb
+C:\Users\tomil\source\repos\Ejercicio1.5(APIs)\ArticulosBack\obj\Debug\net8.0\ref\ArticulosBack.dll
