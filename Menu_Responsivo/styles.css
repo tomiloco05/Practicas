@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+#btn_menu{
+    display:none
+}
+header{
+    width: 100%;
+    background-color:brown
+}
+header label{
+    height: 32px;
+    width: 32px;
+    display: none;
+    padding: 10px;
+}
+header label:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.menu li a{
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+display: block;
+}
+
+@media only screen and (max-width: 800px){
+    header label{
+        display: block;
+    }
+    .menu{
+        position:absolute;
+        background-color:rgba(255, 0, 0, 0.216);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    #btn_menu:checked ~ .menu{
+        margin: 0;
+    }
+}
